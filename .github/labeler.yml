@@ -1,0 +1,8 @@
+# Simple labeler: labels based on paths
+# Requires actions/labeler
+'ci':
+  - .github/**
+'python':
+  - '**/*.py'
+'playwright':
+  - '**/tests/**'
